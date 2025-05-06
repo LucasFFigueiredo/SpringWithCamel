@@ -15,6 +15,7 @@ public class FirstTimerRoute extends RouteBuilder{
 //Exchange[ExchangePattern: InOnly, BodyType: null, Body: [Body is null]] first test
 //Exchange[ExchangePattern: InOnly, BodyType: String, Body: Scoppia Che La Vittoria e Nostra] second test
 //Exchange[ExchangePattern: InOnly, BodyType: String, Body: Time now is 2025-05-06T15:29:10.161619600] third test
+        //teste commit
 
 
         from("timer:first-timer")
