@@ -12,6 +12,7 @@ public class FileRouter extends RouteBuilder {
         from("file:files/input")
                 .log("${body}")
         .to("file:files/output");
+        //test
     }
 
 
